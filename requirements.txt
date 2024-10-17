@@ -1,0 +1,7 @@
+pypdf
+langchain
+langchain_huggingface
+langchain_community
+langchain_chroma
+langchain_text_splitters
+streamlit
