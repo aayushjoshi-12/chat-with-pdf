@@ -13,7 +13,8 @@ from langchain_text_splitters import RecursiveCharacterTextSplitter
 
 load_dotenv()
 
-access_token = os.environ.get("ACCESS_TOKEN")
+# TODO: use streamlit secrets and host it and update in portfolio too.
+access_token = st.secrets["ACCESS_TOKEN"]
 
 st.title("Chat with your PDF")
 
